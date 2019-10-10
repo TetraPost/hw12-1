@@ -1,0 +1,49 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+	min-height: 600px;
+	background: url(../img/ocean.jpg) repeat;
+	position: relative;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	min-height: 401px;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	border: 1px solid #EEEEEE;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	padding: 30px;
+}
+.container img {
+	height: 300px;
+}
+i:last-child:hover {
+	color: #669900;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+
+.wanted path:hover {
+  fill: #669900;
+  cursor: pointer;
+}
+.container img:hover {
+	height: 300px;
+	border: 1px dotted #ffffff;
+}
+
